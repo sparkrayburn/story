@@ -1,0 +1,11 @@
+
+git checkout
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sparkrayburn/c-programs.git
+git push -u origin main
+git rm --cached -r . (remove files which are added)
+git remote rm origin
+*txt(to ignore all txt files while adding)
